@@ -101,3 +101,34 @@ header nav{
     color: #252432;
     font-size: 20px;
 }
+
+/* Get in touch section */
+.get-in-touch{
+    margin: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-in-touch h2{
+    font-weight: bold;
+    font-size: 95px;
+}
+.get-in-touch form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+form label{
+    font-weight: 600;
+}
+.input-box{
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.get-in-touch textarea{
+    height: 100px;
+    padding-top: 20px;
+}
