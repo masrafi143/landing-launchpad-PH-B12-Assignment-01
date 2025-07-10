@@ -29,6 +29,9 @@ header nav{
 .text-dark{
     color: #252432;
 }
+.text-gray{
+    color: #252432;
+}
 .banner-section{
     display: flex;
     flex-direction: column;
@@ -41,4 +44,32 @@ header nav{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
+}
+
+/* Action section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 120px;
+}
+.action-content{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+.action-content h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.action-content p{
+    font-size: 24px;
+}
+.action-image img{
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
 }
