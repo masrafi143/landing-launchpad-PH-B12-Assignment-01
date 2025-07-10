@@ -103,6 +103,51 @@ header nav{
     color: #252432;
     font-size: 20px;
 }
+/* Users feedback section */
+.users-feedback h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin: 35px;
+}
+.card-section{
+    display: flex;
+    padding: 0px 150px;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.feedback-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.reviewer{
+    display: flex;
+}
+.reviewer img{
+    border-radius: 50%;
+}
+.reviewer-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 3px;
+}
+.reviewer-info h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #818089;
+}
+.reviewer-info p{
+    font-size: 16px;
+    color: #818089;
+}
 
 /* Get in touch section */
 .get-in-touch{
